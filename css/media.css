@@ -1,0 +1,323 @@
+/* XL */
+
+@media(max-width:1399px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* LG */
+
+@media(max-width:1199px){
+    .container{
+        max-width: 960px;
+    }
+    .w-lg-2{
+        width: 50%;
+    }
+    header ul li a{
+        font-size: 14px;
+    }
+    header ul li{
+        margin: 0 14px;
+    }
+    .header_btn a, .banner_title a, .about_title a, .course_btn a, .career_content a, .instuctor_btn a, .faq_btn a, .blog_btn a, .ftr_btn a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .features, .our_partner, .our_categories, .why_choose_us, .instuctor, .faq{
+        padding: 50px 0;
+    }
+    .features-items, .course_items{
+        margin: 15px;
+    }
+    .about_title h2, .partner_title h2, .categories_title h2, .course_title h2, .why_choose_title h2, .career_title h2, .instuctor_title h2, .testimonial_title h2, .accordion_title h2, .blog_title h2{
+        font-size: 30px;
+    }
+    .banner_title .line_shape{
+        top: 99%;
+        right: 10%;
+    }
+    .shape .shape-1{
+        top: 10%;
+    }
+    .valuation_content h3{
+        font-size: 25px;
+    }
+    .valuation_content p{
+        font-size: 12px;
+    }
+    .why_choose_items li p{
+        font-size: 15px;
+    }
+    .career_content h4{
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    .instuctor_items{
+        margin: 5px;
+    }
+    .t_shape_1, .shape .shape-4, .career_shape img{
+        left: 3%;
+    }
+    .t_shape_2, .blog_shape_1, .shape .shape-5{
+        right: 2%;
+    }
+    .ftr_phn::after, .ftr_mail::after{
+        left: -20%;
+    }
+    .ftr_icon a{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+}
+
+/* MD */
+
+@media(max-width:991px){
+    .container{
+        max-width: 720px;
+    }      
+    .w-md-1{
+        width: 100%;
+    }      
+    .w-md-2{
+        width: 50%;
+    }                                                                                   
+    .logo{
+        margin: 10px 0;
+    }
+    header nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #f8faf9;
+        display: none;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    header ul li{
+        padding: 10px 0;
+    }
+    .header_btn, .shopping_cart{
+        display: none;
+    }
+    .toggle-menu{
+        display: block;
+    }
+    .banner_title{
+        padding-top: 90px;
+    }
+    .banner_title h1{
+        font-size: 54px;
+    }
+    .banner_title .horn_shape{
+        right: 10%;
+        top: -30%;
+    }
+    .about_us .row .w-2:first-of-type{
+        order: 2;
+    }
+    .about_title{
+        padding: 10px 0;
+    }
+    .course_img img{
+        width: 100%;
+    }
+    .our_valuation .w-4:last-child .valuation_items::before, .our_valuation .w-4:nth-child(2) .valuation_items::before{
+        display: none;
+    }
+    .our_valuation .w-4:nth-child(3) .valuation_items::before{
+        background-color: #ff4e59;
+    }
+    .valuation_items, .categories_items{
+        margin: 10px;
+    }
+    .valuation_items::before{
+        left: 85%;
+    }
+    .course_content h3{
+        font-size: 16px;
+    }
+    .our_course, .choose_career{
+        padding: 20px 0;
+    }
+    .why_choose_content, .why_choose_img{
+        padding: 0;
+    }
+    .instuctor_content h3{
+        margin-top: 10px;
+    }
+    .accordion{
+        margin: 10px 0 0 0;
+    }
+    .blog_content h4{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .ftr_phn ul li span, .ftr_phn ul li a, .ftr_mail ul li span, .ftr_mail ul li a, .ftr_phn ul li:first-child, .ftr_mail ul li:first-child{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .ftr_phn::after, .ftr_mail::after{
+        left: -15%;
+    }
+    .footer_items ul li{
+        margin-bottom: 15px;
+    }
+}
+
+/* SM */
+
+@media(max-width:767px){
+    .container{
+        max-width: 540px;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+    .w-sm-2{
+        width: 50%;
+    }
+    .banner_title .horn_shape{
+        top: -60%;
+    }
+    .banner_title h1{
+        font-size: 35px;
+    }
+    .blog_img img{
+        width: 100%;
+    }
+    .features-items, .course_items{
+        margin: 15px 0;
+    }
+    .valuation_items, .categories_items{
+        margin: 10px 0;
+    }
+    .features, .our_partner, .our_categories, .why_choose_us, .instuctor, .faq{
+        padding: 10px 0;
+    }
+    .shape .shape-4, .shape .shape-5{
+        top: 35%;
+    }
+    .valuation_items::before{
+        left: 100%;
+    }
+    .about_title h2, .partner_title h2, .categories_title h2, .course_title h2, .why_choose_title h2, .career_title h2, .instuctor_title h2, .testimonial_title h2, .accordion_title h2, .blog_title h2{
+        font-size: 23px;
+    }
+    .ftr_phn::after{
+        display: none;
+    }
+    .footer_srt{
+        padding: 40px 0 20px 0;
+    }
+    .ftr_logo img{
+        margin: 0 auto 15px auto;
+    }
+}
+
+/* XS */
+
+@media(max-width:575px){
+    .container{
+        max-width: 100%;
+    }
+    .banner_title h1{
+        font-size: 30px;
+    }
+    .banner_title p{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .shape .shape-1{
+        display: none;
+    }
+    .valuation_content h3{
+        font-size: 20px;
+    }
+    .valuation_content p{
+        font-size: 10px;
+    }
+    .valuation_items a{
+        margin: 5px;
+    }
+    .features-items a, .our_valuation a, .categories_icon a{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .features-items a{
+        font-size: 25px;
+    }
+    .features .w-4:first-child a{
+        font-size: 30px;
+    }
+    .features-items h3{
+        margin-bottom: 5px;
+    }
+    .features-items a, .our_valuation a, .categories_icon a{
+        margin-bottom: 10px;
+    }
+    .about_title h2, .partner_title h2, .categories_title h2, .course_title h2, .why_choose_title h2, .career_title h2, .instuctor_title h2, .testimonial_title h2, .accordion_title h2, .blog_title h2{
+        font-size: 17px;
+    }
+    .accordion_items h2{
+        font-size: 16px;
+    }
+    .accordion_content p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .career_items{
+        display: block;
+    }
+    .career_img{
+        margin-bottom: 10px;
+    }
+    .career_content{
+        margin: 0;
+    }
+    .faq_inner{
+        padding: 10px;
+    }
+    .form_section{
+        padding: 20px;
+    }
+    .form_section h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .ftr_phn ul li span, .ftr_phn ul li a, .ftr_mail ul li span, .ftr_mail ul li a, .ftr_phn ul li:first-child, .ftr_mail ul li:first-child{
+        font-size: 11px;
+    }
+    .footer_items ul li a, .blog_content a{
+        font-size: 13px;
+    }
+    .footer_items p, .copy_right p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .footer_inner{
+        padding: 20px 0;
+    }
+    .footer_items h4{
+        font-size: 15px;
+        margin-bottom: 15px;
+        font-weight: 900;
+    }
+    .footer_items ul li{
+        margin-bottom: 10px;
+    }
+    .ftr_btn{
+        margin: 10px 0;
+    }
+    .ftr_icon a{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+}
